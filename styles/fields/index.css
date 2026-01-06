@@ -59,7 +59,7 @@ select {
 }
 
 .input {
-    &[display] {
+    &[disabled] {
         background-color: var(--surface-disabled);
 
         border: 1px solid var(--stroke-default);
