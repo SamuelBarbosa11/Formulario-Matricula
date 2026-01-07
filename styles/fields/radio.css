@@ -41,7 +41,7 @@ label + .radio-wrapper {
 
     &:hover, &:focus-within {
         border: 1px solid var(--stroke-hightlight);
-        &.radio-image {
+        & .radio-image {
             background-image: url(../../assets/icons/radio-hover.svg);
         }
     }
